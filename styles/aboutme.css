@@ -245,3 +245,52 @@ html{
 .btn-form:hover{border: 2px solid #3b2349 ;
     background: #3b2349;
     color: white;}
+@media (max-width: 1024px) {
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .numeros {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .image img {
+    width: 100%;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-buttons button {
+    margin-bottom: 10px;
+  }
+
+}
